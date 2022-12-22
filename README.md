@@ -1,2 +1,2 @@
-# HTML-Practice
-HTML Practice Repo
+# HTML/CSS-Practice
+HTML/CSS Practice Repo
