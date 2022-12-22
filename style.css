@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+}
+
+p#contact{
+    text-align: center;
+    color: #847930;
+}
+
+img#profile{
+    display: block;
+    margin: 0px auto;
+}
+
+#links{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#intro, #experience
+{
+    padding: 20px 100px;
+}
+
+.experience-detail{
+    padding-bottom: 20px;
+}
