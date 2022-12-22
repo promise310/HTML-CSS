@@ -3,6 +3,7 @@ HTML/CSS Practice Repo
 
 
 How to Fix error: failed to push some refs to Error in Git Using git pull --rebase
+
 Commands:
 git pull --rebase origin main
 git push -u origin main 
