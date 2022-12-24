@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#resume_container {
+    display: flex;
+    font-family: "Archivo Black", sans-serif;
+    color: #384b5e;
+    background-color: #f3f3f3;  
+  }
+
+.navbar {
+    width: 280px;
+    height: 100vh;
+    background-color: #ffb24b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #profile {
+    width: 192px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ffeacd;
+    margin-bottom: 16px;
+  }
+.resume_links {
+    list-style-type: none;
+}
+.resume_link {
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 12px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+  .resume_sections {
+    width: 100%;
+    width: calc(100% - 280px);
+    height: 100vh;
+  
+    overflow: scroll;
+  }
+
+  .contact {
+    color: #6f89a2;
+    line-height: 28px;
+  }
+  .resume_section {
+    width: 60%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .highlight {
+    color: #ffb24b;
+  }
+  
+  .sub-section {
+    padding: 16px 0px;
+    margin-bottom: 16px;
+  }
+  
+  h1.section-title {
+    font-size: 96px;
+    font-weight: bolder;
+    margin-bottom: 32px;  
+  }
+
+  h2.section-title {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 32px;  
+  }
+
+  .icons {
+    font-size: 48px;
+    list-style-type: none;
+    display: flex;
+  }
+
+  .icons a {
+    color: #384b5e;
+  }
+
+  .icons li {
+    padding: 10px;
+    color: #6f89a2;
+  }
+
+  .sub-section .icons li {
+    color: #6f89a2;
+  }
+
+  .skill-icon {
+    display: flex; /* flex를 이용하여 아래 이미지와 제목을 조정하기 위해 설정합니다. */
+    flex-direction: column; /* 정렬의 축을 바꿔주었습니다. */
+    align-items: center; /* 가로 방향으로 가운데 정렬을 합니다. */
+    justify-content: center; /* 세로 방향으로 가운데 정렬을 합니다. */
+  }
+
+  .icon-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
