@@ -109,6 +109,7 @@ a {
     flex-direction: column; /* 정렬의 축을 바꿔주었습니다. */
     align-items: center; /* 가로 방향으로 가운데 정렬을 합니다. */
     justify-content: center; /* 세로 방향으로 가운데 정렬을 합니다. */
+    padding: 10px;
   }
 
   .icon-title {
